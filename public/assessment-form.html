@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><title>Assessment enquiry form definition</title></head>
+  <body>
+    <form name="assessment-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="assessment-enquiry">
+      <p hidden><label>Leave this field empty <input name="bot-field"></label></p>
+      <label>Full name <input name="name" type="text"></label>
+      <label>Business email <input name="email" type="email"></label>
+      <label>Company <input name="company" type="text"></label>
+      <label>Service <select name="service"><option>VAPT</option><option>Offensive security &amp; red teaming</option><option>Compliance readiness</option><option>Cloud security review</option><option>Not sure yet</option></select></label>
+      <label>Assessment details <textarea name="message"></textarea></label>
+      <label><input name="consent" type="checkbox"> Contact consent</label>
+    </form>
+  </body>
+</html>
