@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.tools/
+.browser-profile*/
+.codex/
+.agents/
+.impeccable/
+design-system/
+/_*.png
+/preview-aegis-*.png
+/.browser-profile*
+.DS_Store
+npm-debug.log*
