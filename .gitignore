@@ -11,3 +11,8 @@ design-system/
 /.browser-profile*
 .DS_Store
 npm-debug.log*
+.env*.local
+.env
+data/
+
+
